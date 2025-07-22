@@ -9,5 +9,9 @@ public class TaskN {
         c.getColor();
         c.getModel();
         c.getYear();
+        System.out.println();
+
+        Motorbike m = new Motorbike(1988, "Black", "R1000");
+        System.out.println("Motorbike with parameters: " + m.getColor() + " " + m.getYear() + " " + m.getModel());
     }
 }
