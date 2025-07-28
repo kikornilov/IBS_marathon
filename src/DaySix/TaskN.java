@@ -10,5 +10,8 @@ public class TaskN {
         ap.info();
         System.out.println();
         System.out.println();
+        DaySix.Student st = new Student("Ivan");
+        DaySix.Teacher te = new Teacher("Petr", "Physics");
+        te.evaluate(st.name);
     }
 }
